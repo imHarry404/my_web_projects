@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bgimage {
+  color: white;
+  background-image: url("/images/bg.jpg");
+  background-size: 100% 110%;
+  width: 100%;
+  height: 100vh;
+}
+
+.menu {
+  width: 100%;
+  height: 80px;
+  background-color: rgba(196, 176, 176, 0.4);
+}
+
+.leftmanu {
+  line-height: 80px;
+  width: 30%;
+  float: left;
+}
+.leftmanu h4 {
+  padding-left: 117px;
+  font-weight: bold;
+  font-size: 41px;
+  font-family: "Hammersmith One", sans-serif;
+}
+
+.rightmenu {
+  width: 70%;
+  float: right;
+  height: 100px;
+  font-family: "Hammersmith One", sans-serif;
+}
+.rightmenu ul {
+  margin-left: 166px;
+}
+
+.rightmenu ul li {
+  display: inline-block;
+  /* padding: 20px; */
+  list-style: none;
+  font-size: 25px;
+  margin-left: 48px;
+  line-height: 90px;
+  text-transform: uppercase;
+}
+
+#firstList {
+  color: orange;
+}
+
+.rightmenu ul li:hover {
+  color: orange;
+}
+
+.text {
+  display: inline-block;
+  width: 100%;
+  margin-top: 200px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+}
+
+.text h4 {
+  display: block;
+  font-size: 15px;
+}
+.text h1 {
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  margin: 14px 0px;
+}
+
+.text h3 {
+  background: transparent;
+  display: inline-block;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#buttonone {
+  display: inline-block;
+  margin: auto;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 40px;
+  width: 150px;
+  margin-top: 20px;
+}
+
+#buttonone:hover {
+  background-color: black;
+  color: white;
+}
+
+#buttontwo {
+  display: inline-block;
+  margin: auto;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 40px;
+  width: 150px;
+}
+#buttontwo:hover {
+  background-color: black;
+  color: white;
+}
